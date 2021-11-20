@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/activity_main.xml" value="0.240625" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/drawable-v24/top_rounded_bg.xml" value="0.2609375" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/drawable/bg_button.xml" value="0.2609375" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/drawable/bg_login.xml" value="0.2609375" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/activity_splash.xml" value="0.4252163164400494" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/activity_splash_screen.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/activity_splash_view.xml" value="0.240625" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/fragment_article.xml" value="0.240625" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/fragment_bottomsheet_language_changer.xml" value="0.240625" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/fragment_forgot_password.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/mehrajspc/AndroidStudioProjects/aroma/app/src/main/res/layout/fragment_register.xml" value="0.240625" />
       </map>
     </option>
   </component>

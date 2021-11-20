@@ -2,4 +2,27 @@
     <string name="app_name">aroma</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_title">ADD APP TITLE HERE</string>
+    <string name="app_sub_title">ADD APPLICATION SUB TITLE HERE</string>
+    
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter Password</string>
+
+
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="forgot_password_2">Forgot Password </string>
+    <string name="signup">Sign up</string>
+    
+    <string name="name">Name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="alreday">Already have an account? Login</string>
+    <string name="submit">Submit</string>
+
+    <string name="changelaguage">Change Language</string>
 </resources>
