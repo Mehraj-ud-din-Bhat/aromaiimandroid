@@ -7,6 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.aroma.R
+import com.example.aroma.User
+import com.example.aroma.presenter.IMainView
+import com.example.aroma.view.MainActivity
 import kotlinx.android.synthetic.main.fragment_login.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -19,17 +22,12 @@ private const val ARG_PARAM2 = "param2"
  * Use the [Login.newInstance] factory method to
  * create an instance of this fragment.
  */
-class Login : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+class Login : Fragment(),IMainView {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+
     }
 
     override fun onCreateView(
@@ -43,10 +41,12 @@ class Login : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         signup.setOnClickListener { findNavController().navigate(R.id.register) }
-
         forgotpassword.setOnClickListener { findNavController().navigate(R.id.forgotPasswordFragment) }
+
+        change_language.setOnClickListener {
+            (activity as MainActivity).openLanguageChangeSheet()
+        }
     }
 
     companion object {
@@ -67,5 +67,34 @@ class Login : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+    }
+
+    override fun createUser(user: User) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onUserCreated() {
+        TODO("Not yet implemented")
+    }
+
+
+    override fun onError(msg: String) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onError() {
+        TODO("Not yet implemented")
+    }
+
+    override fun onSuccess() {
+        TODO("Not yet implemented")
+    }
+
+    override fun onSuccess(msg: String) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onLoginSuccesful() {
+        TODO("Not yet implemented")
     }
 }

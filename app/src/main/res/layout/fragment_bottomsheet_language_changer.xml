@@ -3,12 +3,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.BottomsheetLanguageChanger">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context=".fragments.BottomsheetLanguageChanger"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    >
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/choose_laguage"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        />
+    <ImageView
+        android:id="@+id/close_bottom_sheet"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_close"
+
+
+
+         />
+
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="25dp">
+        <Button
+            android:id="@+id/english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_margin="6dp"
+            android:background="@drawable/bg_button"
+            />
+
+        <Button
+            android:id="@+id/hindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hindi"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_margin="6dp"
+            android:background="@drawable/bg_button"
+            />
+
+    </LinearLayout>
+
+
+
 
 </LinearLayout>

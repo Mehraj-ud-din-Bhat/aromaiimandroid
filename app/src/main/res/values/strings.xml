@@ -25,4 +25,8 @@
     <string name="submit">Submit</string>
 
     <string name="changelaguage">Change Language</string>
+
+    <string name="choose_laguage">Choose Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
 </resources>
