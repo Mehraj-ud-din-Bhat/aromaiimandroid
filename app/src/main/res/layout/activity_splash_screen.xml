@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@color/purple_700">
+    android:background="@color/white">
 
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="28dp"
-        android:src="@color/white"
+        android:src="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/apptitle"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -25,7 +25,7 @@
         android:fontFamily="@font/poppins_light"
         android:gravity="center"
         android:text="@string/app_title"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <TextView
@@ -36,7 +36,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="@string/app_sub_title"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
 
 
         />
